@@ -2,7 +2,73 @@ body {
     padding: 40px 100px;
     margin: auto;
     max-width: 1440px;
+    font-family:Helvetica;
+    font-weight: 12px;
 }
+
+nav {
+    margin-bottom: 200px;
+}
+
+.main-container{
+display: flex;
+flex-direction: row;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.navigation-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 50px;
+list-style: none;
+margin-bottom: 25px;
+}
+
+.navigation-container l1 {
+font-size: 12px;
+
+
+}
+
+
+.næringsberegner-div{
+margin-right: 400px;
+}
+
+.næringsberegner-div li{
+    font-size: 12px;
+    font-family:Helvetica;
+    }
+
+
+.navigation-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin-bottom: 25px;
+    }
+
+.flex-bob {
+    display: flex;
+}
+
+.bobob {
+    margin-right: 5px;
+}
+
 
 header {
     display: flex;
@@ -52,3 +118,5 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+
