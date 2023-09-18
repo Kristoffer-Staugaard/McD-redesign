@@ -133,3 +133,29 @@ list-style: none;
 
 
 }
+
+
+/* Nu jimmer Featured.HTML*/
+.top_tekst{
+text-align: center;
+margin: 100px;
+}
+
+.indhold_på_featured{
+display: flex;
+margin: 90px;
+
+}
+
+.indhold_i_featured{
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+
+}
+
+
+.featured-img {
+width: 60%;
+}
