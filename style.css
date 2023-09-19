@@ -70,12 +70,27 @@ margin-right: 400px;
 }
 
 
+.overskrift{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+
+
+}
+
 header {
     display: flex;
+    margin-bottom: 50px;
+}
+
+.forskudt{
+display: flex;
+flex-direction: row;
 }
 
 .header-img {
-    max-width: 900px;
+    max-width: 700px;
 }
 
 .info-box {
@@ -124,7 +139,8 @@ footer{
 display: flex;
 justify-content: center;
 gap: 50px;
-
+margin-top: 150px;
+border-bottom: 0.5px solid black;
 
 }
 
